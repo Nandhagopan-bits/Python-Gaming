@@ -21,6 +21,7 @@ if __name__ == '__main__':
         if(c<=50000):
             print("Your eligible for loan")
             print("yor loan amount accepted")
+            print("congratulations")
         else:
             print("The maximum amount is 50000")
     else:
