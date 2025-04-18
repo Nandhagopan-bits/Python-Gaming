@@ -12,20 +12,19 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    d=input("Name:")
-    a=int(input("salary:"))
-    b=int(input("Age:"))
-    if(a>=20000 or b<=25):
-        print("Your eligible for loan ")
-        c=int(input('Enter your loan amount:'))
-        if(c<=50000):
-            print("Your eligible for loan")
-            print("yor loan amount accepted")
-            print("congratulations")
-        else:
-            print("The maximum amount is 50000")
+    a=int(input("A:"))
+    b=int(input("B:"))
+    operation=input("Add/Sub/Mul/Divi:")
+    if(operation=="Add"):
+        print(a+b)
+    elif(operation=="Sub"):
+        print(a-b)
+    elif(operation=="Mul"):
+        print(a*b)
+    elif(operation=="Divi"):
+        print(a/b)
     else:
-        print("Your not eligible")
+        print("Invailed format")
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
